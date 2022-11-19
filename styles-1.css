@@ -1,0 +1,200 @@
+/*common stles */
+body{margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+   
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+}
+
+    
+
+mark.white {
+    color: white;
+    background: none;
+    font-weight: 500;
+}
+
+mark.blue {
+    color:aqua;
+    background: none;}
+
+/*Helpers */
+.spacer35{
+    height: 35px;
+    width: 100%;
+    background-color: #0f0f0f;
+}
+
+/* Cabecera*/
+
+.navigation-wrapper{
+    height: 80px;
+    background-color: black;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    align-items: center;
+    /* padding works clockwise you can also put only 2 figures and it works for top and right-bottom left*/
+    padding: 15px 15px;
+    border: 0px;
+}
+
+
+
+.navigation-wrapper > .left-column > .Logo img{
+    width: 195px;
+    height: 100%;
+    
+}
+
+.navigation-wrapper > .center-column{
+    display: flex;
+    justify-content: space-between;
+   flex-direction: column;
+   margin-left: 20px ;
+   margin-right: 450px;
+}
+
+.navigation-wrapper > .center-column > .navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+.navigation-wrapper > .center-column > .explore{
+   color: #cea135;
+   text-transform:uppercase;
+   margin-left: 14px;
+}
+.navigation-wrapper >.center-column >.navbar>.spark{
+    margin-top: 15px
+    
+}
+.navigation-wrapper > .center-column > .navbar> .nav-link {
+    padding: 1em;
+    
+}
+.navigation-wrapper > .center-column > .navbar> .nav-link a{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+
+
+
+.navigation-wrapper> .right-column{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 400;
+   justify-items: right;
+   float: right;
+   margin-left: 100px;
+   
+}
+
+.navigation-wrapper button{
+    color: white;
+    background-color: #444857;
+    border: width 3px; ;
+    border-radius: 4px;
+    margin-block: 1px;
+    margin-inline: 10px;
+    padding-inline: 16px;
+    padding-block: 10px;
+font-weight: 700; 
+}
+.navigation-wrapper> .right-column > .search i{
+   color: grey;
+   font-size: 1.2em;
+}
+.navigation-wrapper> .right-column > .create-button i{
+    color: #47cf73;
+}
+
+
+
+/*Hero Section*/
+.hero-section{
+    background-color: #404148;
+    height: 100%;
+    margin-top: -21px;
+   color: #c7c9d3;
+   display: flex;
+   justify-content: space-between;
+   padding-top:25px;
+   box-shadow: -800px -200px 200px -25px rgba(0,0,0,0.58) inset;
+   font-family: 'Lato', sans-serif;
+
+}
+
+.hero-section>.left-section{
+    margin-right: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.hero-section>.left-section> .hero-section-buttons{
+    display: flex;
+    
+
+}
+.hero-section>.left-section> .hero-section-buttons {
+    padding: 10px 16px;
+    border: transparent;
+}
+
+
+.hero-section-buttons button{
+    border: width 3px; ;
+    border-radius: 4px;
+    margin-block: 1px;
+    margin-inline: 10px;
+    padding-inline: 16px;
+    padding-block: 10px;
+}
+.left-button button{
+    background-color: #47cf73 ;
+    padding: 13px;
+    border-color: transparent;
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+.right-button button{
+    background-color: black ;
+    padding: 13px;
+    border-color: transparent;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+}
+
+
+.hero-section>.right-section img{
+    width: 600px;
+    height: 100%;
+}
+
+/*Footer Section*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer>.columns{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: #404148;
+    width: 100%;
+    border: 1px solid grey;
+}
+
